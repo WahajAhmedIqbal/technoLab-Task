@@ -1,8 +1,3 @@
-import { ADD_USER } from "../constant";
+import { ADDUSER } from "../constant";
 
-export const addUser = (user) => {
-  return {
-    type: ADD_USER,
-    payload: user,
-  };
-};
+export const addUser = (user) => ({ type: ADDUSER, payload: user });
