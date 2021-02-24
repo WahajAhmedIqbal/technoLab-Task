@@ -71,7 +71,7 @@ const LoginPage = () => {
         </Col>
       </Row>
 
-      <TablePage />
+      {/* <TablePage /> */}
     </div>
   );
 };

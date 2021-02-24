@@ -3,10 +3,6 @@ import { useSelector } from "react-redux";
 
 const TablePage = () => {
   const userDetail = useSelector((state) => state.user);
-  console.log(
-    "🚀 ~ file: index.js ~ line 6 ~ TablePage ~ userDetail",
-    userDetail
-  );
 
   return (
     <div>
